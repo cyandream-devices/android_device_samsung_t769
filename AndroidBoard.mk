@@ -23,4 +23,4 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 # include the non-open-source counterpart to this file
--include vendor/samsung/blaze4g/AndroidBoardVendor.mk
+-include vendor/samsung/T769/AndroidBoardVendor.mk

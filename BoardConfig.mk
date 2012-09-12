@@ -25,7 +25,7 @@
 # against the traditional rules of inheritance).
 
 # inherit from the proprietary version
--include vendor/samsung/blaze4g/BoardConfigVendor.mk
+-include vendor/samsung/T769/BoardConfigVendor.mk
 
 USE_CAMERA_STUB := true
 BOARD_USES_GENERIC_AUDIO := false
@@ -48,10 +48,10 @@ TARGET_GLOBAL_CFLAGS += -mtune=cortex-a9 -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mtune=cortex-a9 -mfpu=neon -mfloat-abi=softfp
 
 BOARD_USE_CUSTOM_RECOVERY_FONT := "\"roboto_15x24.h\""
-TARGET_RECOVERY_INITRC := device/samsung/blaze4g/recovery/init.rc
-BOARD_CUSTOM_GRAPHICS := ../../../device/samsung/blaze4g/recovery/graphics.c
-BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/blaze4g/recovery/recovery_keys.c
-BOARD_CUSTOM_RECOVERY_UI := ../../device/samsung/blaze4g/recovery/recovery_ui.c
+TARGET_RECOVERY_INITRC := device/samsung/T769/recovery/init.rc
+BOARD_CUSTOM_GRAPHICS := ../../../device/samsung/T769/recovery/graphics.c
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/T769/recovery/recovery_keys.c
+BOARD_CUSTOM_RECOVERY_UI := ../../device/samsung/T769/recovery/recovery_ui.c
 BOARD_HAS_SDCARD_INTERNAL := true
 BOARD_HAS_INTERNAL_PARTITIONS := true
 
@@ -67,7 +67,7 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 0x25600000
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x80200000
 BOARD_FLASH_BLOCK_SIZE := 131072
 
-TARGET_PREBUILT_KERNEL := device/samsung/blaze4g/kernel
+TARGET_PREBUILT_KERNEL := device/samsung/T769/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 # Use this flag if the board has a ext4 partition larger than 2gb
