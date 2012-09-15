@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
-$(call inherit-product-if-exists, vendor/samsung/T769 /T769 -vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/T769/T769-vendor.mk)
 
 # Set en_US as default locale
 PRODUCT_LOCALES := en_US
