@@ -50,7 +50,6 @@ TARGET_GLOBAL_CPPFLAGS += -mtune=cortex-a9 -mfpu=neon -mfloat-abi=softfp
 BOARD_USE_CUSTOM_RECOVERY_FONT := "\"roboto_15x24.h\""
 TARGET_RECOVERY_INITRC := device/samsung/T769/recovery/init.rc
 BOARD_CUSTOM_GRAPHICS := ../../../device/samsung/T769/recovery/graphics.c
-BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/T769/recovery/recovery_keys.c
 BOARD_CUSTOM_RECOVERY_UI := ../../device/samsung/T769/recovery/recovery_ui.c
 BOARD_HAS_SDCARD_INTERNAL := true
 BOARD_HAS_INTERNAL_PARTITIONS := true
