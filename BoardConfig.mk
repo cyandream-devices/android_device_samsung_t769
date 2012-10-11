@@ -51,7 +51,7 @@ BOARD_CUSTOM_RECOVERY_UI := ../../device/samsung/t769/recovery/recovery_ui.c
 BOARD_HAS_SDCARD_INTERNAL := true
 BOARD_HAS_INTERNAL_PARTITIONS := true
 
-TARGET_OTA_ASSERT_DEVICE := SGH-T769,t769,blaze4g
+TARGET_OTA_ASSERT_DEVICE := SGH-T769,T769,sgh-t769,t769,Blaze4G,Blaze4g,blaze4G,blaze4g
 
 # Kernel
 TARGET_KERNEL_CONFIG        := cyanogenmod_t769_defconfig
