@@ -39,25 +39,22 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/ramdisk/init.qcom.rc:root/init.qcom.rc \
-    $(LOCAL_PATH)/ramdisk/init.qcom.sh:root/init.qcom.sh \
-    $(LOCAL_PATH)/ramdisk/init.qcom.usb.rc:root/init.qcom.usb.rc \
-    $(LOCAL_PATH)/ramdisk/init.qcom.usb.sh:root/init.qcom.usb.sh \
-    $(LOCAL_PATH)/ramdisk/init.target.rc:root/init.target.rc \
-    $(LOCAL_PATH)/ramdisk/ueventd.rc:root/ueventd.rc \
-    $(LOCAL_PATH)/ramdisk/init.emmc.rc:root/init.emmc.rc \
-    $(LOCAL_PATH)/fstab.qcom:root/fstab.qcom \
-	$(LOCAL_PATH)/ramdisk/init.qcom.lpm_boot.sh:root/init.qcom.lpm_boot.sh \
-	$(LOCAL_PATH)/ramdisk/lpm.rc:root/lpm.rc \
-	$(LOCAL_PATH)/recovery/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh
+    device/samsung/t769/ramdisk/init.qcom.rc:root/init.qcom.rc \
+    device/samsung/t769/ramdisk/init.qcom.sh:root/init.qcom.sh \
+    device/samsung/t769/ramdisk/init.qcom.usb.rc:root/init.qcom.usb.rc \
+    device/samsung/t769/ramdisk/init.qcom.usb.sh:root/init.qcom.usb.sh \
+    device/samsung/t769/ramdisk/init.target.rc:root/init.target.rc \
+    device/samsung/t769/ramdisk/ueventd.rc:root/ueventd.rc \
+    device/samsung/t769/ramdisk/init.emmc.rc:root/init.emmc.rc \
+    device/samsung/t769/fstab.qcom:root/fstab.qcom
 
 # BT firmware
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/firmware/bcm4330B1.hcd:system/etc/firmware/bcm4330B1.hcd
+    device/samsung/t769/firmware/bcm4330B1.hcd:system/etc/firmware/bcm4330B1.hcd
 
 # Vold
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/vold.fstab:system/etc/vold.fstab
+    device/samsung/t769/vold.fstab:system/etc/vold.fstab
 
 # QRNGD
 PRODUCT_PACKAGES += qrngd
