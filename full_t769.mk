@@ -21,9 +21,15 @@
 # lines, full and maguro, hence its name.
 #
  
-# Torch
+# Packages
 PRODUCT_PACKAGES := \
-    Torch
+    audio.a2dp.default \
+    audio.usb.default \
+    com.android.future.usb.accessory \
+    Torch \
+        libtinyalsa \
+        libaudioutils \
+        libnetcmdiface.so
 
 BOARD_HAVE_NFC := true
 
