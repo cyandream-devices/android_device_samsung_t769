@@ -31,8 +31,9 @@ USE_CAMERA_STUB := true
 # inherit from the proprietary version
 -include vendor/samsung/t769/BoardConfigVendor.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := t769
+TARGET_BOOTLOADER_BOARD_NAME := MSM8660_SURF
 
+# Assert
 TARGET_OTA_ASSERT_DEVICE := SGH-T769,T769,sgh-t769,t769,Blaze4G,Blaze4g,blaze4G,blaze4g
 
 # Kernel
@@ -60,8 +61,4 @@ BOARD_SDEXT_DEVICE := /dev/block/mmcblk1p2
 BOARD_USES_MMCUTILS := true
 BOARD_HAS_NO_MISC_PARTITION := true
 
-# Workaround for glitches while cropping bypass layers
-TARGET_NO_BYPASS_CROPPING := true
-
-# MTP
-BOARD_MTP_DEVICE := "/dev/mtp_usb"
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/t769/bluetooth
