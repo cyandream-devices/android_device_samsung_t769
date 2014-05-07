@@ -23,6 +23,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/t769/overlay
 # Ramdisk
 PRODUCT_COPY_FILES += \
     device/samsung/t769/ramdisk/init.qcom.usb.rc:root/init.qcom.usb.rc \
+    device/samsung/t769/configs/media_profiles.xml:system/etc/media_profiles.xml \
 
 # BT firmware
 PRODUCT_COPY_FILES += \
